@@ -235,14 +235,6 @@ let bebida = '';
 let cantidad = 0;
 let resumenPedido = '';
 let items = 0;
-const cantidadId = [];
-cantidades = 3;
-
-
-
-  
-  
-
 
   
 while(!items || items === 0 || items > 9)
