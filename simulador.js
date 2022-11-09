@@ -2,7 +2,7 @@
 //SIMULADOR DE UNA TERMINAL DE PEDIDO DE COMIDAS
 
 //ESTO SERIA CONSTRUCTOR PARA ARMAR LOS PRECIOS 
-/*
+
 let precio = 0
 let id = 0
 
@@ -22,7 +22,39 @@ const preciosBebidas3 = new Bebidas(3, 'cocktail', 800);
 const bebidas = ['BEBIDAS'];
 bebidas.push(preciosBebidas1, preciosBebidas2, preciosBebidas3);
 
-const agregado = (preciosBebidas1.precio, preciosBebidas2.precio, preciosBebidas3.precio, preciosBebidas1.id, preciosBebidas2.id, preciosBebidas3.id);
+
+
+class Menu {
+  constructor(id, menu, precio) {
+    this.id = id;
+    this.menu = menu;
+    this.precio = precio;
+   }
+
+}
+const preciosMenu1 = new Menu(4, 'pizza', 900);
+const preciosMenu2 = new Menu(5, 'milanesa', 1100);
+const preciosMenu3 = new Menu(6, 'ensaldas', 800);
+
+const menus = ['MENU'];
+menus.push(preciosMenu1, preciosMenu2, preciosMenu3);
+
+class Postre {
+  constructor(id, postre, precio) {
+    this.id = id;
+    this.postre = postre;
+    this.precio = precio;
+   }
+
+}
+const preciosPostre1 = new Postre(7, 'tiramisu', 800);
+const preciosPostre2 = new Postre(8, 'volcan', 1000);
+const preciosPostre3 = new Postre(9, 'flan', 600);
+
+const postres = ['POSTRES'];
+postres.push(preciosPostre1, preciosPostre2, preciosPostre3);
+
+
 
 //console.log(preciosBebidas1);
 
@@ -31,20 +63,20 @@ const agregado = (preciosBebidas1.precio, preciosBebidas2.precio, preciosBebidas
 //console.log(preciosBebidas3);
 
 console.log(bebidas);
+console.log(menus);
+console.log(postres);
 
 
 //BIENVENIDA PEDIR NOMBRE Y OFRECER CARTA
 
   
-  
-
 
 let nombre = prompt('Bienvenidos. Favor decinos tu nombre?');
 alert('hola ' + nombre + '!!');
 let confirmacionVerCarta = confirm('deseas ver nuestra carta?');
 
 //ESTO SERIA MOSTRAR LA CARTA
-const cartaMenu = ['BEBIDAS', 'id 1 Coca', 'id 2 Cerveza', 'id 3 Cocktail'];
+const cartaMenu = ['BEBIDAS', 'id 1 Coca', 'id 2 Cerveza', 'id 3 Cocktail','COMIDAS', 'id 4 Pizza', 'id 5 Milanesa', 'id 6 Ensaladas', 'POSTRES', 'id 7 Tiramisu', 'id 8 Volcan', 'id 9 Flan' ];
 
 console.log(cartaMenu)
 
@@ -207,10 +239,21 @@ const cantidadId = [];
 cantidades = 3;
 
 
-while(!items || items === 0 || items > 3){
-items = prompt('seleccione el id de su bebida')}
-while(!cantidad || cantidad === 0 ){
-cantidad = Number(prompt('ingrese la cantidad'))}
+
+  
+  
+
+
+  
+while(!items || items === 0 || items > 9)
+{
+items = prompt('seleccione el id de los productos')
+}
+while(!cantidad || cantidad === 0 )
+{
+cantidad = prompt('ingrese la cantidad')
+}
+
 
 
 class Pedido {
@@ -220,6 +263,8 @@ class Pedido {
     this.cantidad = cantidad;
    
   }
+
+  
 }
 //ESTO SERIA la fcturaccion de los pedidos
 const pedido1 = new Pedido(seleccionarMesa, id, cantidad);
@@ -239,10 +284,36 @@ switch (items) {
      resumenPedido = Object.assign(pedido1, preciosBebidas3);
     break;
 
+    case "4":
+      resumenPedido = Object.assign(pedido1, preciosMenu1);
+     break;
+ 
+     case "5":
+      resumenPedido = Object.assign(pedido1, preciosMenu2);
+     break;
+ 
+     case "6":
+      resumenPedido = Object.assign(pedido1, preciosMenu3);
+     break;
+
+     case "7":
+      resumenPedido = Object.assign(pedido1, preciosPostre1);
+     break;
+ 
+     case "8":
+      resumenPedido = Object.assign(pedido1, preciosPostre2);
+     break;
+ 
+     case "9":
+      resumenPedido = Object.assign(pedido1, preciosPostre3);
+     break;
+
   default:
     alert("ingrese un id valido por favor");
     break;
 }
+
+
  
 pedidos.push(resumenPedido);
 
@@ -261,6 +332,7 @@ if (confirmacion) {
 } else {
   alert("que tenga un buen día!!");
 }
+
 
 const totalFacturacion = []; 
 totalFacturacion.push(facturacionMesa);
