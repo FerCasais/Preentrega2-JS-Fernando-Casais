@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css");
+h1 {
+  color: aqua;
+}
+
+nav.col-md {
+  background-color: brown;
+}
+
+.mesas {
+  background-color: rgb(19, 147, 58);
+  height: 200px;
+  border: 2px solid;
+  color: black;
+  border-radius: 10px;
+  color: white;
+  font-size: xx-large;
+}
+
+.btn-menus {
+  background-color: rgb(151, 82, 134);
+  height: 100%;
+  width: 90%;
+  border: 2px solid;
+  color: black;
+  border-radius: 50px;
+  color: white;
+  font-size: xx-large;
+}
+
+section {
+  background-color: pink;
+}
+
+.pedido {
+  background-color: blue;
+  height: 100px;
+  border: 2px solid;
+  color: black;
+  border-radius: 10px;
+  color: white;
+  font-size: xx-large;
+}
+
+.elegir-mesa {
+  background-color: rgb(255, 21, 0);
+  height: 100px;
+  border: 2px solid;
+  color: black;
+  border-radius: 10px;
+  color: white;
+  font-size: xx-large;
+}
+
+.cocina {
+  background-color: rgb(255, 0, 247);
+  height: 180px;
+  border: 2px solid;
+  color: black;
+  border-radius: 10px;
+  color: white;
+  font-size: xx-large;
+}
+
+.container-fluid text-center {
+  padding: 40%;
+}
+
+.row gy-4 {
+  background-color: rgb(75, 81, 144);
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(150, 93, 178);
+}
+
+* {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.reveal {
+  position: relative;
+  font-size: 12em;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: rgb(214, 60, 145);
+  color: red;
+  letter-spacing: 0.5em;
+}
+
+span {
+  color: #ab3485;
+  mix-blend-mode: lighten;
+}
+
+.reveal:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 100%;
+  border-radius: 50%;
+  background: #000;
+  animation: reveal 6s linear infinite;
+}
+
+@keyframes reveal {
+  0% {
+    left: -50px;
+  }
+  50% {
+    left: calc(100% - 150px);
+  }
+  100% {
+    left: -50px;
+  }
+}
+.btn-menus {
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
