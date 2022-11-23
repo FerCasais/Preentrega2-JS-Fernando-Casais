@@ -27,71 +27,7 @@ nav.col-md {
   background-color: #ab3485;
 }
 
-#mesa1 {
-  background-color: rgb(19, 147, 58);
- width: 100%;
- height: 200px;
-  border: 2px solid;
-  color: black;
-  border-radius: 10px;
-  color: white;
-  font-size: xx-large;
-}
 
-#mesa2 {
-  background-color: rgb(19, 147, 58);
- width: 100%;
- height: 200px;
-  border: 2px solid;
-  color: black;
-  border-radius: 10px;
-  color: white;
-  font-size: xx-large;
-}
-
-#mesa3 {
-  background-color: rgb(19, 147, 58);
- width: 100%;
- height: 200px;
-  border: 2px solid;
-  color: black;
-  border-radius: 10px;
-  color: white;
-  font-size: xx-large;
-}
-
-#mesa4 {
-  background-color: rgb(19, 147, 58);
- width: 100%;
- height: 200px;
-  border: 2px solid;
-  color: black;
-  border-radius: 10px;
-  color: white;
-  font-size: xx-large;
-}
-
-#mesa5 {
-  background-color: rgb(19, 147, 58);
- width: 100%;
- height: 200px;
-  border: 2px solid;
-  color: black;
-  border-radius: 10px;
-  color: white;
-  font-size: xx-large;
-}
-
-#mesa6 {
-  background-color: rgb(19, 147, 58);
- width: 100%;
- height: 200px;
-  border: 2px solid;
-  color: black;
-  border-radius: 10px;
-  color: white;
-  font-size: xx-large;
-}
 
 #mesa7 {
   background-color: rgb(19, 147, 58);
@@ -159,15 +95,17 @@ nav.col-md {
   font-size: xx-large;
 }
 
-.mesas {
+.mesa {
   background-color: rgb(19, 147, 58);
   height: 200px;
+  width: 100%;
   border: 2px solid;
   color: black;
   border-radius: 10px;
   color: white;
   font-size: xx-large;
 }
+
 
 .btn-menus {
   background-color: rgb(151, 82, 134);
@@ -312,6 +250,7 @@ span {
   color: aqua;
   font-size: 2em;
     background-color: #c16a6a;
+    
 }
 
 #cantidad {
@@ -344,11 +283,18 @@ span {
 
 }
 
-#listadoPedidosPorMesas {
+#pedidosPorMesas {
   background-color: #c16a6a;
   height: 500px;
   color: whitesmoke;
 }
+
+#depachado {
+  background-color: black;
+}
+
+
+
 
 
 
