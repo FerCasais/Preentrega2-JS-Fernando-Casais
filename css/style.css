@@ -1,0 +1,357 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css");
+body {
+	margin-top: 20px;
+}
+
+h1 {
+  color: aqua;
+}
+
+#body {
+  background-color: #ab3485;
+ 
+}
+
+form {
+  font-size: larger;
+  justify-content: center;
+}
+
+
+nav.col-md {
+  background-color: rgb(105, 45, 82);
+}
+
+.menu-en-pedidos {
+  background-color: #ab3485;
+}
+
+#mesa1 {
+  background-color: rgb(19, 147, 58);
+ width: 100%;
+ height: 200px;
+  border: 2px solid;
+  color: black;
+  border-radius: 10px;
+  color: white;
+  font-size: xx-large;
+}
+
+#mesa2 {
+  background-color: rgb(19, 147, 58);
+ width: 100%;
+ height: 200px;
+  border: 2px solid;
+  color: black;
+  border-radius: 10px;
+  color: white;
+  font-size: xx-large;
+}
+
+#mesa3 {
+  background-color: rgb(19, 147, 58);
+ width: 100%;
+ height: 200px;
+  border: 2px solid;
+  color: black;
+  border-radius: 10px;
+  color: white;
+  font-size: xx-large;
+}
+
+#mesa4 {
+  background-color: rgb(19, 147, 58);
+ width: 100%;
+ height: 200px;
+  border: 2px solid;
+  color: black;
+  border-radius: 10px;
+  color: white;
+  font-size: xx-large;
+}
+
+#mesa5 {
+  background-color: rgb(19, 147, 58);
+ width: 100%;
+ height: 200px;
+  border: 2px solid;
+  color: black;
+  border-radius: 10px;
+  color: white;
+  font-size: xx-large;
+}
+
+#mesa6 {
+  background-color: rgb(19, 147, 58);
+ width: 100%;
+ height: 200px;
+  border: 2px solid;
+  color: black;
+  border-radius: 10px;
+  color: white;
+  font-size: xx-large;
+}
+
+#mesa7 {
+  background-color: rgb(19, 147, 58);
+ width: 100%;
+ height: 200px;
+  border: 2px solid;
+  color: black;
+  border-radius: 10px;
+  color: white;
+  font-size: xx-large;
+}
+
+#mesa8 {
+  background-color: rgb(19, 147, 58);
+ width: 100%;
+ height: 200px;
+  border: 2px solid;
+  color: black;
+  border-radius: 10px;
+  color: white;
+  font-size: xx-large;
+}
+
+#mesa9 {
+  background-color: rgb(19, 147, 58);
+ width: 100%;
+ height: 200px;
+  border: 2px solid;
+  color: black;
+  border-radius: 10px;
+  color: white;
+  font-size: xx-large;
+}
+
+#mesa10 {
+  background-color: rgb(19, 147, 58);
+ width: 100%;
+ height: 200px;
+  border: 2px solid;
+  color: black;
+  border-radius: 10px;
+  color: white;
+  font-size: xx-large;
+}
+
+#mesa11 {
+  background-color: rgb(19, 147, 58);
+ width: 100%;
+ height: 200px;
+  border: 2px solid;
+  color: black;
+  border-radius: 10px;
+  color: white;
+  font-size: xx-large;
+}
+
+#mesa12 {
+  background-color: rgb(19, 147, 58);
+ width: 100%;
+ height: 200px;
+  border: 2px solid;
+  color: black;
+  border-radius: 10px;
+  color: white;
+  font-size: xx-large;
+}
+
+.mesas {
+  background-color: rgb(19, 147, 58);
+  height: 200px;
+  border: 2px solid;
+  color: black;
+  border-radius: 10px;
+  color: white;
+  font-size: xx-large;
+}
+
+.btn-menus {
+  background-color: rgb(151, 82, 134);
+  height: 100%;
+  width: 70%;
+  border: 2px solid;
+  color: black;
+  border-radius: 50px;
+  color: rgb(20, 19, 19);
+  font-size: xx-large;
+  
+}
+
+section {
+  background-color: pink;
+}
+
+.pedido {
+  background-color: blue;
+  height: 100px;
+  border: 2px solid;
+  color: black;
+  border-radius: 10px;
+  color: rgb(57, 18, 43);
+  font-size: xx-large;
+}
+
+.elegir-mesa  {
+  background-color: rgb(255, 21, 0);
+  height: 100px;
+  border: 2px solid;
+  color: black;
+  color: rgb(57, 18, 43);
+  font-size: xx-large; 
+
+}
+
+.realizar-pedido {
+  background-color: rgb(255, 21, 0);
+  height: 100px;
+  border: 2px solid;
+  color: black;
+  color: rgb(57, 18, 43);
+  font-size: xx-large;
+}
+
+.elegir-menu  {
+  background-color: rgb(255, 21, 0);
+  height: 100px;
+  border: 2px solid;
+  color: black;
+  color: rgb(57, 18, 43);
+  font-size: xx-large;
+}
+
+.cocina {
+  background-color: rgb(255, 0, 247);
+  height: 180px;
+  border: 2px solid;
+  color: black;
+  border-radius: 10px;
+  color: rgb(147, 62, 116);
+  font-size: xx-large;
+  margin-top: 100px;
+}
+
+
+
+* {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.reveal {
+  position: relative;
+  font-size: 12em;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: rgb(214, 60, 145);
+  color: red;
+  letter-spacing: 0.5em;
+}
+
+span {
+  color: #ab3485;
+  mix-blend-mode: lighten;
+}
+
+.reveal:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:100px;
+  height: 100%;
+  border-radius: 50%;
+  background: #000;
+  animation: reveal 6s linear infinite;
+}
+
+@keyframes reveal {
+  0% {
+    left: -50px;
+  }
+  50% {
+    left: calc(100% - 150px);
+  }
+  100% {
+    left: -50px;
+  }
+}
+.btn-menus {
+  align-items: center;
+}
+
+.row {
+    padding: 1%;
+}
+
+.hola {
+  background-color: yellow;
+}
+
+.inicio {
+  height: 500px;
+  background-color: crimson;
+}
+
+.number {
+  display: inline-block;
+  margin-left: 50px;
+  width: 3em;
+  text-align: center;
+
+}
+
+.li {
+  text-align: start;
+  text-decoration: none;
+}
+
+#formulario {
+  color: aqua;
+  font-size: 2em;
+    background-color: #c16a6a;
+}
+
+#cantidad {
+  width: 3ex;
+  justify-content: end;
+ 
+}
+
+#checkbox {
+  justify-content: start;
+}
+
+.number {
+  width: 4ex;
+}
+
+#listadoMenu {
+
+  background-color: #c16a6a;
+  height: 500px;
+  color: whitesmoke;
+  
+
+}
+
+#listadoMesasOcupadas {
+  background-color: #c16a6a;
+  height: 500px;
+  color: whitesmoke;
+
+}
+
+#listadoPedidosPorMesas {
+  background-color: #c16a6a;
+  height: 500px;
+  color: whitesmoke;
+}
+
+
+
+
+
+/*# sourceMappingURL=style.css.map */
