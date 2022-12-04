@@ -10,6 +10,10 @@ function actualizar1(){
     seleccionarMesa1.style.borderColor = 'blue';
     arrayMesas.push(seleccionarMesa1.innerText);
     let storageMesas = localStorage.setItem('mesas', arrayMesas);
+   
+        
+   
+  /////
 }
 let seleccionarMesa2 = document.getElementById("mesa2")
 seleccionarMesa2.addEventListener("click", actualizar2) 
@@ -55,9 +59,10 @@ function actualizar6(){
     seleccionarMesa6.style.borderColor = 'blue';
     arrayMesas.push(seleccionarMesa6.innerText);
     storageMesas = localStorage.setItem('mesas', arrayMesas);
+    
 };
 /////// HASTA ACA ELEGIR MESAS (por ahora hice solo 6 por si lo cambio por menos código)
-    
+
 
 
 
