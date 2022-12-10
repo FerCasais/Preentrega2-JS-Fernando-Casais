@@ -304,7 +304,7 @@ elegir.addEventListener('click', () => {
 
   Swal.fire({
 
-    imageUrl: "../img/images (1).jpg",
+    imageUrl: "../img/71-jmCIXT8L._SY445_.jpg",
     imageHeight: "312",
     title: "Menú Bebidas",
     timer: 6500,
@@ -326,7 +326,7 @@ elegir.addEventListener('click', () => {
   setTimeout(function () {
     Swal.fire({
 
-      imageUrl: "../img/images (1).jpg",
+      imageUrl: "../img/4b1ac291564ddbf86ec2b4a947de407e428dd783824038d9436cf00f6b0db827._RI_V_TTW_.jpg",
       imageHeight: "312",
       title: "Menú Postres",
       timer: 3500,
